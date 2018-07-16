@@ -25,7 +25,7 @@ def searchUser():
         print("your name is not there")
 
 while True:
-    z= int(input("please choose your operation number.\n1:add user\n2:delete user\n3:list users\n4:search for user\n"))
+    z= int(input("please choose your operation number.\n1:add user\n2:delete user\n3:list users\n4:search for user\n5:exit\n"))
     if z == 1:
         addUser()
     elif z == 2:
@@ -34,6 +34,8 @@ while True:
         listUsers()
     elif z == 4:
         searchUser()
+    elif z == 5:
+        exit()
     else:
-        z = int(input("please choose your operation number.\n1:add user\n2:delete user\n3:list users\n4:search for user\n"))
+        z = int(nput("please choose your operation number.\n1:add user\n2:delete user\n3:list users\n4:search for user\n5:exit\n"))
 
