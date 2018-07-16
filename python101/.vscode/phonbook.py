@@ -37,5 +37,5 @@ while True:
     elif z == 5:
         exit()
     else:
-        z = int(nput("please choose your operation number.\n1:add user\n2:delete user\n3:list users\n4:search for user\n5:exit\n"))
+        z = int(input("please choose your operation number.\n1:add user\n2:delete user\n3:list users\n4:search for user\n5:exit\n"))
 
