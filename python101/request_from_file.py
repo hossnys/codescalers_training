@@ -10,4 +10,3 @@ for line in f.readlines():
             print(url +" is ok")
         except:
             print(url+" is not reachable")
-
